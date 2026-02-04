@@ -1,0 +1,30 @@
+{
+  "name": "@testcinemaotg/passport",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --write \"lib/**/*.ts\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Lightweight authentification library",
+  "devDependencies": {
+    "@testcinemaorg/core": "^1.0.4",
+    "@types/node": "^25.2.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.13",
+    "@nestjs/core": "^11.1.13",
+    "reflect-metadata": "^0.2.2",
+    "txjs": "^0.1.1"
+  }
+}
